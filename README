@@ -1,0 +1,19 @@
+/*RADU Sabina - 321CB*/
+
+In tema2.c am efectuat citirea din fisier si scris consola programului. Fiecare
+serial este gandit ca o coada de unul sau mai multe sezoane, iar un sezon este o
+coada de unul sau mai multe episoade. Serialele vizionate integral vor fi
+adaugate in stiva history. Fiind vorba de o stiva, ultimul serial vizionat va
+ajunge in varful acesteia, iar la fel se procedeaza si in cazul stivei watch.
+Serialele din top10 au un camp in plus fata de cele normale, si anume numarul de
+ordine. In movie.c functia compareMovie compara 2 filme dintr-o lista, functia
+findRemoveStack se poate uita la oricare din stack, asa ca practic este tratat
+in input ca si cum ar fi o lista. Voi respecta ca e stack si o sa folosesc
+functii pentru stack. In list.c functia createList creeaza o lista cu primul
+element avand info = data. Functia addToList adauga un element nou in lista
+sortat. Sortarea se face folosind compar. compar > 0 inseamna ca elementul nou
+este inaintea celui aflat la pozitie. Functia freeCells elibereaza doar celule,
+nu si informatia. Functia deleteList elibereaza fiecare celula din lista.
+freeInfo este functia pentru eliberea TCell -> info (custom). In queue.c functia
+deleteQueue, tehnic in coada tinem cozi si int, asa ca functia generala nu e
+foarte folositoare. In urma rularii pe calculatorul propriu, am obtinut total: 135/135 si bonus: 20/20.
